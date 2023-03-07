@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(20, 190, 17, 0.804)
+}
+.box {
+    background-color: rgb(245, 238, 238);
+    margin: 100px 600px;
+    padding: 10px;
+    width: 370px;
+    height: 530px;
+}
+.box h1{
+    margin: 5px 0 10px 5px;
+    color: rgb(130, 129, 129);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box h5{
+    margin: 10px;
+    color: rgb(130, 129, 129);
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.in{
+    display: flex;
+    margin: 10px 5px;
+    width: 98%;
+    height: 6.5%;
+}
+.text {
+    margin: 10px 5px;
+    width: 98%;
+    height: 20%;
+}
+.box button {
+    margin: 10px 5px;
+    width: 98%;
+    height: 6.5%;
+    padding: 5px;
+    background-color: rgba(20, 190, 17, 0.804);
+    color: white;
+}
+.box p {
+    margin: 20px 0px 0 90px;
+    color: rgb(130, 129, 129);
+}

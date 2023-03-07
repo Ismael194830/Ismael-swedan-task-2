@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 75px;
+    background-color: rgb(5, 76, 130);
+    display: flex;
+    justify-content: center;
+}
+.father {
+    background-color: rgb(250, 247, 247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    width: 50%;
+    height: 300px;
+}
+.inputs {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.inputs button{
+    margin: 15px 10px;
+    width: 80%;
+    height: 40px;
+    background-color: rgb(5, 76, 130);
+    color: white;
+    border: 0;
+}
+.inputs input{
+    border: 0;
+    border-bottom: 1px solid gray;
+    background-color: rgb(250, 247, 247);
+    margin: 12px;
+    width: 80%;
+    height: 10%;
+}
+.learn {
+    margin-top: 30px;
+    margin-right: 40px;
+    width: 60%;
+    height: 100%;
+    font-family: Arial;
+}
+.learn h1{
+    font-size: 35px;
+}
+.learn p{
+    margin: 10% 0;
+    color: gray;
+}
+.A {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    text-decoration-line: none;
+    color: gray;
+}
+.A a {
+    text-decoration: none;
+    border: 1px solid gray;
+    color: gray;
+    border-top: 0;
+    border-left: 0;
+    padding: 2px;
+}
